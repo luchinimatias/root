@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gemunu+Libre:wght@500&family=PT+Sans:ital@1&display=swap");
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #7c7575,
+    #7f797b,
+    #817d80,
+    #828185,
+    #848589,
+    #85878b,
+    #858a8d,
+    #868c8f,
+    #858d8f,
+    #858d8f,
+    #848e8f,
+    #848e8e
+  );
+}
+nav {
+  font-family: "Gemunu Libre", "Times New Roman", Times, serif;
+}
+h1 {
+  font-family: "Gemunu Libre", "Times New Roman", Times, serif;
+}
+section {
+  font-family: "Gemunu Libre", "Times New Roman", Times, serif;
+}
+
+footer {
+  font-family: "Gemunu Libre", "Times New Roman", Times, serif;
+}
+video {
+  background-color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none; /*elimino linea de un link*/
+}
+.navbarList {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbarItem {
+  display: inline-block;
+}
+.navLink {
+  color: white;
+  display: inline-block;
+  padding: 20px;
+}
+.subMenu {
+  display: none;
+  position: absolute;
+}
+.submenuItem {
+  padding: 5px;
+}
+.submenuItem a {
+  color: white;
+}
+.navbarItem:hover > ul {
+  display: list-item;
+}
+.navLink:hover {
+  background-color: rgb(230, 15, 15);
+  color: black;
+}
+.submenuItem:hover a {
+  color: black;
+}
+.activo {
+  color: black;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+.img2 {
+  width: 100px;
+  height: 200px;
+}
+.contenido {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 4rem;
+}
+.articulos {
+  width: 80%;
+}
+.artCont {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1px outset #0c0b0b9a;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  gap: 20px;
+  box-shadow: 0px 0px 20px 0px;
+}
+.menuSecundario {
+  font-family: "Gemunu Libre", "Times New Roman", Times, serif;
+  width: 20%;
+  margin-top: 4rem;
+}
+.menuSecundario a {
+  display: block;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+.menuSecundarioItem:hover {
+  color: black;
+}
+footer {
+  width: 100%;
+  background-color: rgb(122, 121, 121);
+  margin-top: 1rem;
+  color: white;
+}
+footer p {
+  text-align: inherit;
+  padding: 0rem;
+}
+footer a {
+  color: white;
+}
+.footerItem:hover {
+  color: black;
+}
+.imgIcon {
+  width: 20px;
+  height: 20px;
+}
+.imgIcon:hover {
+  width: 22px;
+  height: 22px;
+}
+.contFooter {
+  display: flex;
+}
+.contItem {
+  width: auto;
+  padding: 20px;
+}
+.contHeader {
+  display: flex;
+}
+.contItemHeader {
+  width: 500px;
+  padding: 20px;
+  color: white;
+}
+header {
+  position: static;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+}
+nav {
+  position: static;
+  top: 50px;
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+.relleno {
+  height: 100px;
+}
+main {
+  top: 50px;
+  left: 100;
+  right: 100;
+  position: static;
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+aside {
+  top: 50px;
+  left: 0;
+  right: 0;
+  position: static;
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+.borde {
+  border: 1;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 20px 0px;
+}
+form {
+  width: 900px;
+  padding: 16px;
+  margin: 15pt;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px;
+}
+form label {
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+}
+.contenedorPrincipal {
+  padding: 2rem 2rem 2rem 2rem;
+}
+.imagenFija {
+  position: fixed;
+  height: 4rem;
+  width: 4rem;
+  margin-left: 90%;
+}
+.contenedorBanner {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.imagenFlayer {
+  width: 400px;
+  height: 400px;
+}
+
+.contImagen {
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: blueviolet;
+}
+.imagenIntro {
+  width: 800px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+.contenedorPortada {
+  animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: top right;
+  }
+}
