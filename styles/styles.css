@@ -150,6 +150,7 @@ footer a {
 .contHeader {
   display: flex;
 }
+
 .contItemHeader {
   width: 500px;
   padding: 20px;
@@ -234,24 +235,4 @@ form label {
 .imagenIntro {
   width: 800px;
   height: 200px;
-}
-
-
-
-
-
-
-
-
-.contenedorPortada {
-  animation: movimiento 10s infinite linear alternate;
-}
-
-@keyframes movimiento {
-  from {
-    background-position: bottom left;
-  }
-  to {
-    background-position: top right;
-  }
 }
